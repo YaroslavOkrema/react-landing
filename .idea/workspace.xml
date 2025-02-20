@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8607af2-fbc5-4cf3-b31b-c919aaf01364" name="Changes" comment="feat: add prettier">
-      <change afterPath="$PROJECT_DIR$/public/img/ETH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Numbers/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Transactions/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    <list default="true" id="d8607af2-fbc5-4cf3-b31b-c919aaf01364" name="Changes" comment="feat: add components">
+      <change beforePath="$PROJECT_DIR$/src/components/Transactions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transactions/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740076605027</updated>
-      <workItem from="1740076606199" duration="18097000" />
+      <workItem from="1740076606199" duration="18400000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add react">
       <option name="closed" value="true" />
@@ -117,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740078535007</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add components">
+      <option name="closed" value="true" />
+      <created>1740095029579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740095029579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +126,7 @@
     <MESSAGE value="feat: add react" />
     <MESSAGE value="feat: add tailwind" />
     <MESSAGE value="feat: add prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add prettier" />
+    <MESSAGE value="feat: add components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add components" />
   </component>
 </project>

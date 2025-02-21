@@ -63,7 +63,7 @@ const Header = () => {
             5 днів безкоштовного користування
           </p>
         </div>
-        <div className="transform -translate-y-20 -translate-x-20">
+        <div className="transform -translate-y-20 -translate-x-20 sm: w-1/2 h-auto">
           <img src="/img/ETH.png" alt="ETH" />
         </div>
       </div>

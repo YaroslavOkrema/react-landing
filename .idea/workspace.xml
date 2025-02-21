@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8607af2-fbc5-4cf3-b31b-c919aaf01364" name="Changes" comment="refactor: transactions">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Questions/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tariffs/index.jsx" afterDir="false" />
+    <list default="true" id="d8607af2-fbc5-4cf3-b31b-c919aaf01364" name="Changes" comment="feat: end landing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Numbers/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Questions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questions/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tariffs/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tariffs/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Transactions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transactions/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740076605027</updated>
       <workItem from="1740076606199" duration="19084000" />
-      <workItem from="1740137231103" duration="9196000" />
+      <workItem from="1740137231103" duration="15007000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add react">
       <option name="closed" value="true" />
@@ -131,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740095325399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: end landing">
+      <option name="closed" value="true" />
+      <created>1740147296198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147296198</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +154,7 @@
     <MESSAGE value="feat: add prettier" />
     <MESSAGE value="feat: add components" />
     <MESSAGE value="refactor: transactions" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: transactions" />
+    <MESSAGE value="feat: end landing" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: end landing" />
   </component>
 </project>

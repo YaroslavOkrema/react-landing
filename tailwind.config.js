@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         sans: ['IBM Plex Sans', 'sans-serif'],
       },
+      scrollBehavior: ['smooth'],
     },
   },
   plugins: [],

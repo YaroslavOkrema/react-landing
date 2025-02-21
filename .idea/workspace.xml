@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8607af2-fbc5-4cf3-b31b-c919aaf01364" name="Changes" comment="feat: add design phone and burger">
+    <list default="true" id="d8607af2-fbc5-4cf3-b31b-c919aaf01364" name="Changes" comment="refactor: components">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Numbers/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Questions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questions/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tariffs/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tariffs/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Transactions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transactions/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740076605027</updated>
       <workItem from="1740076606199" duration="19084000" />
-      <workItem from="1740137231103" duration="15325000" />
+      <workItem from="1740137231103" duration="19011000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add react">
       <option name="closed" value="true" />
@@ -141,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740153588047</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor: components">
+      <option name="closed" value="true" />
+      <created>1740153718630</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740153718630</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +172,7 @@
     <MESSAGE value="refactor: transactions" />
     <MESSAGE value="feat: end landing" />
     <MESSAGE value="feat: add design phone and burger" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add design phone and burger" />
+    <MESSAGE value="refactor: components" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: components" />
   </component>
 </project>

@@ -5,32 +5,47 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <section className="h-screen bg-[#040718] text-white px-6 sm:px-10 md:px-20">
-      <nav className="flex items-center justify-between px-4 py-4 relative">
-        <div className="logo w-[100px] md:w-[131px] h-[50px] md:h-[64px]">
+    <section className="h-screen bg-[#040718] text-white sm:px-10 md:px-20">
+      <nav className="flex items-center justify-between px-4 py-4 relative md:mb-40">
+        <div className="logo cursor-pointer w-[100px] md:w-[131px] h-[50px] md:h-[64px]">
           <img src="/img/logo.png" alt="logo" />
         </div>
 
         <div className="hidden md:flex text-sm text-gray-400 uppercase font-medium space-x-4 md:space-x-10">
-          <a className="transition-all duration-300 hover:text-white" href="#">
+          <a
+            className="transition-all duration-300 hover:text-white"
+            href="#numbers"
+          >
             Цифри
           </a>
-          <a className="transition-all duration-300 hover:text-white" href="#">
+          <a
+            className="transition-all duration-300 hover:text-white"
+            href="#transactions"
+          >
             Угоди онлайн
           </a>
-          <a className="transition-all duration-300 hover:text-white" href="#">
+          <a
+            className="transition-all duration-300 hover:text-white"
+            href="#about"
+          >
             Про компанію
           </a>
           <a className="transition-all duration-300 hover:text-white" href="#">
             Як почати
           </a>
-          <a className="transition-all duration-300 hover:text-white" href="#">
+          <a
+            className="transition-all duration-300 hover:text-white"
+            href="#tariffs"
+          >
             Тарифи
           </a>
           <a className="transition-all duration-300 hover:text-white" href="#">
             Відгуки
           </a>
-          <a className="transition-all duration-300 hover:text-white" href="#">
+          <a
+            className="transition-all duration-300 hover:text-white"
+            href="#faq"
+          >
             FAQ
           </a>
         </div>
@@ -53,7 +68,7 @@ const Header = () => {
         </button>
 
         {menuOpen && (
-          <div className="absolute top-0 left-0 w-full h-screen bg-[#6C4BFF] text-white flex flex-col items-center justify-center space-y-6 z-50">
+          <div className="absolute top-0 left-0 w-full h-screen bg-[#6C4BFF] text-white flex flex-col items-start justify-center space-y-6 z-50 uppercase px-3">
             <button
               className="absolute top-4 right-6 text-white"
               onClick={() => setMenuOpen(false)}
@@ -95,7 +110,7 @@ const Header = () => {
         )}
       </nav>
 
-      <div className="flex flex-col md:flex-row items-center text-center md:text-left">
+      <div className="flex flex-col md:flex-row items-center text-center md:text-left px-2">
         <div>
           <h1 className="text-4xl md:text-6xl text-left w-full md:w-3/5 uppercase mb-3">
             миттєво копіюй угоди профі трейдерів
@@ -110,7 +125,7 @@ const Header = () => {
               className="bg-[#211a4e] text-sm text-white py-2 px-4 pl-10 pr-16 rounded-lg w-full h-full placeholder:text-sm uppercase"
               placeholder="Введіть email"
             />
-            <button className="absolute right-1 top-1/2 transform -translate-y-1/2 bg-[#57E1FF] rounded text-sm uppercase text-[#211a4e] py-2 px-4 w-[90px] md:w-[109px] h-[40px] md:h-[52px]">
+            <button className="absolute right-1 top-1/2 transform -translate-y-1/2 bg-[#57E1FF] rounded text-sm uppercase text-[#211a4e] py-2 px-4 w-[90px] md:w-[109px] h-[40px] md:h-[52px] transition-all duration-300 border-2 border-transparent hover:bg-[#133447] hover:text-[#59e0fe] hover:border-[#59e0fe]">
               Почати
             </button>
           </div>

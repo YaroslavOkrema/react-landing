@@ -1,5 +1,6 @@
 {
   "name": "react-landing",
+  "homepage": "https://YaroslavOkrema.github.io/react-landing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
     "postcss-cli": "^11.0.0",
     "prettier": "^3.5.1"

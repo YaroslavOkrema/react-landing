@@ -8,7 +8,7 @@ const Header = () => {
     <section className="h-screen bg-[#040718] text-white sm:px-10 md:px-20">
       <nav className="flex items-center justify-between px-4 py-4 relative md:mb-40">
         <div className="logo cursor-pointer w-[100px] md:w-[131px] h-[50px] md:h-[64px]">
-          <img src="/img/logo.png" alt="logo" />
+          <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="logo" />
         </div>
 
         <div className="hidden md:flex text-sm text-gray-400 uppercase font-medium space-x-4 md:space-x-10">
@@ -112,10 +112,10 @@ const Header = () => {
 
       <div className="flex flex-col md:flex-row items-center text-center md:text-left px-2">
         <div>
-          <h1 className="text-4xl md:text-6xl text-left w-full md:w-3/5 uppercase mb-3">
+          <h1 className="text-4xl md:text-6xl text-left w-full md:w-2/3 uppercase mb-3">
             миттєво копіюй угоди профі трейдерів
           </h1>
-          <p className="text-base font-normal w-full md:w-2/5 text-gray-400 mb-3 text-left">
+          <p className="text-base font-normal w-full md:w-2/3 text-gray-400 mb-3 text-left">
             Почни копіювати угоди з успішною командою професійних трейдерів в
             автоматичному режимі.
           </p>
@@ -136,7 +136,7 @@ const Header = () => {
         <div className="mt-6 md:mt-0 md:ml-10 w-full md:w-1/2">
           <img
             className="w-full max-w-[300px] md:max-w-full mx-auto"
-            src="/img/ETH.png"
+            src={`${process.env.PUBLIC_URL}/img/ETH.png`}
             alt="ETH"
           />
         </div>

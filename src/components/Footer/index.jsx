@@ -59,7 +59,7 @@ const Footer = () => {
 
       <div className="w-full md:w-auto flex flex-col items-center md:items-start mt-6 md:mt-0">
         <div className="logo w-[131px] h-[64px] mb-4 md:mb-60">
-          <img src="/img/logo.png" alt="logo" />
+          <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="logo" />
         </div>
         <p className="text-xs md:text-sm font-normal text-[#686a74] text-center md:text-left">
           © 2022 TradeBlade. All rights reserved
